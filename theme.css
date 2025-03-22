@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+.Post {
+    background-color:white;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+}
+.PostHeader {
+    display:flex;
+    height: 50px;
+}
+.logo {
+    font-size: 200%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.Name {
+    width: 60px;
+    font-size: 90%;
+    margin-left: 3%;
+    margin-top: 2%;
+    padding-right: 60%;
+}
+.More {
+    width: 50px;
+    font-size: 200%;
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+.Post-Icons {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-left: 2%;
+}   
+.bookmark {
+    margin-left: 80%;
+}
+p {
+    width: 95%;
+    margin-left: 2%;
+    margin-right: auto;
+    font-size: 100%;
+}
